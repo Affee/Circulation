@@ -8,8 +8,13 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void) {
+    int ture_val,false_val;
+    
+    ture_val = (10>2);
+    false_val = (10 == 2);
+    printf("ture ==%d;false = %d\n",ture_val,false_val);
     return 0;
 }
+//1为真，0为假
+

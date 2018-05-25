@@ -9,7 +9,11 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+ 
+    const int NUMBER = 22;
+    int count;
+    for (count = 1; count <= NUMBER; count++) {
+        printf("Be your Valentine!-----%d\n",count);
+        }
     return 0;
 }

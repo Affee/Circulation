@@ -7,9 +7,19 @@
 //
 
 #include <stdio.h>
-
+// 再次探索while循环
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    long num;
+    long sum = 0L;/*把sum初始化为0*/
+    int status;
+    printf("Please enter an integer to be summed");
+    printf("(q to quit):");
+    status = scanf("%ld",&num);
+    while (status == 1) {
+        sum = sum +sum;
+        printf("Please enter next integer(q to quit)");
+        status = scanf("%ld",&sum);
+    }
+    printf("Those intergers sum to %ld\n",sum);
     return 0;
 }

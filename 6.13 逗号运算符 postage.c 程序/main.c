@@ -9,7 +9,13 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    const int FIRST_OZ = 46;
+    const int NEXT_OZ = 20;
+    int ounces,cost;
+    printf("ounces cost\n");
+    for (ounces = 1,cost = FIRST_OZ; ounces <= 16; ounces++,cost += NEXT_OZ) {
+        printf("%5d  $%4.3f\n",ounces,cost/100.0);
+    }
+    //基友的啊
     return 0;
 }

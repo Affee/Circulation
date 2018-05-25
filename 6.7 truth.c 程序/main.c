@@ -9,7 +9,16 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+ 
+    int n = 3;
+    while (n)
+        printf("%2d is ture\n",n--);
+        printf("%2d is false\n",n);
+//-------------------- 分割
+    n = -3;
+    while (n)
+        printf("%2d is ture\n",n++);
+    printf("%2d is false\n",n);
+    
     return 0;
 }

@@ -9,7 +9,17 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+
+    const int secret_code = 13;
+    int code_entered;
+    do{
+        printf("To enter the BBS therapy club,\n");
+        printf("please enter the secrect code number:");
+        scanf("%d",&code_entered);
+    }while(code_entered != secret_code);
+        printf("终于过关了");
+        printf("Congratulations! you are a sb!\n");
+    
+    
     return 0;
 }

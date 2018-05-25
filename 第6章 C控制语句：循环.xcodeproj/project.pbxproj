@@ -7,11 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6081281207CB73E00A9A030 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6081280207CB73E00A9A030 /* main.c */; };
+		F608128C207CC3BC00A9A030 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F608128B207CC3BC00A9A030 /* main.c */; };
+		F6081297207CC5A500A9A030 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6081296207CC5A500A9A030 /* main.c */; };
+		F60812AF2080805B00A9A030 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F60812AE2080805B00A9A030 /* main.c */; };
+		F60812BA2080978600A9A030 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F60812B92080978600A9A030 /* main.c */; };
 		F63FDF21207C5C9F00E5AB17 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F63FDF20207C5C9F00E5AB17 /* main.c */; };
+		F63FDF2E207C95A000E5AB17 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F63FDF2D207C95A000E5AB17 /* main.c */; };
+		F63FDF39207C9FE500E5AB17 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F63FDF38207C9FE500E5AB17 /* main.c */; };
+		F63FDF44207CA3C300E5AB17 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F63FDF43207CA3C300E5AB17 /* main.c */; };
+		F63FDF4F207CB43F00E5AB17 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F63FDF4E207CB43F00E5AB17 /* main.c */; };
+		F669414420A02F07002E1A56 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F60812A1207CCAA800A9A030 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F608127C207CB73E00A9A030 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6081287207CC3BB00A9A030 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F6081292207CC5A500A9A030 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F608129D207CCAA800A9A030 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F60812AA2080805B00A9A030 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F60812B52080978600A9A030 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F63FDF1B207C5C9F00E5AB17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F63FDF29207C95A000E5AB17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F63FDF34207C9FE500E5AB17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F63FDF3F207CA3C300E5AB17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		F63FDF4A207CB43F00E5AB17 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +123,102 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F608127E207CB73E00A9A030 /* 6.11 sweetie2.c for循环 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.11 sweetie2.c for循环"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6081280207CB73E00A9A030 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6081289207CC3BB00A9A030 /* 6.13 逗号运算符 postage.c 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.13 逗号运算符 postage.c 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F608128B207CC3BC00A9A030 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F6081294207CC5A500A9A030 /* 6.14 zeno.c 求序列的和 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.14 zeno.c 求序列的和 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6081296207CC5A500A9A030 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F608129F207CCAA800A9A030 /* 6.15 do--while */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.15 do--while"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60812A1207CCAA800A9A030 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F60812AC2080805B00A9A030 /* 6.17 rowsl.c 嵌套循环 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.17 rowsl.c 嵌套循环"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60812AE2080805B00A9A030 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F60812B72080978600A9A030 /* 6.20 power.c 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.20 power.c 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60812B92080978600A9A030 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		F63FDF1D207C5C9F00E5AB17 /* 第6章 C控制语句：循环 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第6章 C控制语句：循环"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F63FDF20207C5C9F00E5AB17 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F63FDF2B207C95A000E5AB17 /* 什么是真 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "什么是真"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63FDF2D207C95A000E5AB17 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F63FDF36207C9FE500E5AB17 /* 6.7 truth.c 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.7 truth.c 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63FDF38207C9FE500E5AB17 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F63FDF41207CA3C300E5AB17 /* 6.8 trouble.c 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.8 trouble.c 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63FDF43207CA3C300E5AB17 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F63FDF4C207CB43F00E5AB17 /* 6.10 sweetiel.c 程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.10 sweetiel.c 程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63FDF4E207CB43F00E5AB17 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F608127B207CB73E00A9A030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081286207CC3BB00A9A030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081291207CC5A500A9A030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F608129C207CCAA800A9A030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60812A92080805B00A9A030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60812B42080978600A9A030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F63FDF1A207C5C9F00E5AB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63FDF28207C95A000E5AB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63FDF33207C9FE500E5AB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63FDF3E207CA3C300E5AB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63FDF49207CB43F00E5AB17 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,10 +228,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F608127F207CB73E00A9A030 /* 6.11 sweetie2.c for循环 */ = {
+			isa = PBXGroup;
+			children = (
+				F6081280207CB73E00A9A030 /* main.c */,
+			);
+			path = "6.11 sweetie2.c for循环";
+			sourceTree = "<group>";
+		};
+		F608128A207CC3BC00A9A030 /* 6.13 逗号运算符 postage.c 程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F608128B207CC3BC00A9A030 /* main.c */,
+			);
+			path = "6.13 逗号运算符 postage.c 程序";
+			sourceTree = "<group>";
+		};
+		F6081295207CC5A500A9A030 /* 6.14 zeno.c 求序列的和 程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F6081296207CC5A500A9A030 /* main.c */,
+			);
+			path = "6.14 zeno.c 求序列的和 程序";
+			sourceTree = "<group>";
+		};
+		F60812A0207CCAA800A9A030 /* 6.15 do--while */ = {
+			isa = PBXGroup;
+			children = (
+				F60812A1207CCAA800A9A030 /* main.c */,
+			);
+			path = "6.15 do--while";
+			sourceTree = "<group>";
+		};
+		F60812AD2080805B00A9A030 /* 6.17 rowsl.c 嵌套循环 */ = {
+			isa = PBXGroup;
+			children = (
+				F60812AE2080805B00A9A030 /* main.c */,
+			);
+			path = "6.17 rowsl.c 嵌套循环";
+			sourceTree = "<group>";
+		};
+		F60812B82080978600A9A030 /* 6.20 power.c 程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F60812B92080978600A9A030 /* main.c */,
+			);
+			path = "6.20 power.c 程序";
+			sourceTree = "<group>";
+		};
 		F63FDF14207C5C9F00E5AB17 = {
 			isa = PBXGroup;
 			children = (
 				F63FDF1F207C5C9F00E5AB17 /* 第6章 C控制语句：循环 */,
+				F63FDF2C207C95A000E5AB17 /* 什么是真 */,
+				F63FDF37207C9FE500E5AB17 /* 6.7 truth.c 程序 */,
+				F63FDF42207CA3C300E5AB17 /* 6.8 trouble.c 程序 */,
+				F63FDF4D207CB43F00E5AB17 /* 6.10 sweetiel.c 程序 */,
+				F608127F207CB73E00A9A030 /* 6.11 sweetie2.c for循环 */,
+				F608128A207CC3BC00A9A030 /* 6.13 逗号运算符 postage.c 程序 */,
+				F6081295207CC5A500A9A030 /* 6.14 zeno.c 求序列的和 程序 */,
+				F60812A0207CCAA800A9A030 /* 6.15 do--while */,
+				F60812AD2080805B00A9A030 /* 6.17 rowsl.c 嵌套循环 */,
+				F60812B82080978600A9A030 /* 6.20 power.c 程序 */,
 				F63FDF1E207C5C9F00E5AB17 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +298,16 @@
 			isa = PBXGroup;
 			children = (
 				F63FDF1D207C5C9F00E5AB17 /* 第6章 C控制语句：循环 */,
+				F63FDF2B207C95A000E5AB17 /* 什么是真 */,
+				F63FDF36207C9FE500E5AB17 /* 6.7 truth.c 程序 */,
+				F63FDF41207CA3C300E5AB17 /* 6.8 trouble.c 程序 */,
+				F63FDF4C207CB43F00E5AB17 /* 6.10 sweetiel.c 程序 */,
+				F608127E207CB73E00A9A030 /* 6.11 sweetie2.c for循环 */,
+				F6081289207CC3BB00A9A030 /* 6.13 逗号运算符 postage.c 程序 */,
+				F6081294207CC5A500A9A030 /* 6.14 zeno.c 求序列的和 程序 */,
+				F608129F207CCAA800A9A030 /* 6.15 do--while */,
+				F60812AC2080805B00A9A030 /* 6.17 rowsl.c 嵌套循环 */,
+				F60812B72080978600A9A030 /* 6.20 power.c 程序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,9 +320,143 @@
 			path = "第6章 C控制语句：循环";
 			sourceTree = "<group>";
 		};
+		F63FDF2C207C95A000E5AB17 /* 什么是真 */ = {
+			isa = PBXGroup;
+			children = (
+				F63FDF2D207C95A000E5AB17 /* main.c */,
+			);
+			path = "什么是真";
+			sourceTree = "<group>";
+		};
+		F63FDF37207C9FE500E5AB17 /* 6.7 truth.c 程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F63FDF38207C9FE500E5AB17 /* main.c */,
+			);
+			path = "6.7 truth.c 程序";
+			sourceTree = "<group>";
+		};
+		F63FDF42207CA3C300E5AB17 /* 6.8 trouble.c 程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F63FDF43207CA3C300E5AB17 /* main.c */,
+			);
+			path = "6.8 trouble.c 程序";
+			sourceTree = "<group>";
+		};
+		F63FDF4D207CB43F00E5AB17 /* 6.10 sweetiel.c 程序 */ = {
+			isa = PBXGroup;
+			children = (
+				F63FDF4E207CB43F00E5AB17 /* main.c */,
+			);
+			path = "6.10 sweetiel.c 程序";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F608127D207CB73E00A9A030 /* 6.11 sweetie2.c for循环 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6081284207CB73E00A9A030 /* Build configuration list for PBXNativeTarget "6.11 sweetie2.c for循环" */;
+			buildPhases = (
+				F608127A207CB73E00A9A030 /* Sources */,
+				F608127B207CB73E00A9A030 /* Frameworks */,
+				F608127C207CB73E00A9A030 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.11 sweetie2.c for循环";
+			productName = "6.11 sweetie2.c for循环";
+			productReference = F608127E207CB73E00A9A030 /* 6.11 sweetie2.c for循环 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6081288207CC3BB00A9A030 /* 6.13 逗号运算符 postage.c 程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F608128D207CC3BC00A9A030 /* Build configuration list for PBXNativeTarget "6.13 逗号运算符 postage.c 程序" */;
+			buildPhases = (
+				F6081285207CC3BB00A9A030 /* Sources */,
+				F6081286207CC3BB00A9A030 /* Frameworks */,
+				F6081287207CC3BB00A9A030 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.13 逗号运算符 postage.c 程序";
+			productName = "6.13 逗号运算符 postage.c 程序";
+			productReference = F6081289207CC3BB00A9A030 /* 6.13 逗号运算符 postage.c 程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F6081293207CC5A500A9A030 /* 6.14 zeno.c 求序列的和 程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6081298207CC5A500A9A030 /* Build configuration list for PBXNativeTarget "6.14 zeno.c 求序列的和 程序" */;
+			buildPhases = (
+				F6081290207CC5A500A9A030 /* Sources */,
+				F6081291207CC5A500A9A030 /* Frameworks */,
+				F6081292207CC5A500A9A030 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.14 zeno.c 求序列的和 程序";
+			productName = "6.14 zeno.c 求序列的和 程序";
+			productReference = F6081294207CC5A500A9A030 /* 6.14 zeno.c 求序列的和 程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F608129E207CCAA800A9A030 /* 6.15 do--while */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60812A3207CCAA800A9A030 /* Build configuration list for PBXNativeTarget "6.15 do--while" */;
+			buildPhases = (
+				F608129B207CCAA800A9A030 /* Sources */,
+				F608129C207CCAA800A9A030 /* Frameworks */,
+				F608129D207CCAA800A9A030 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.15 do--while";
+			productName = "6.15 do--while";
+			productReference = F608129F207CCAA800A9A030 /* 6.15 do--while */;
+			productType = "com.apple.product-type.tool";
+		};
+		F60812AB2080805B00A9A030 /* 6.17 rowsl.c 嵌套循环 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60812B02080805B00A9A030 /* Build configuration list for PBXNativeTarget "6.17 rowsl.c 嵌套循环" */;
+			buildPhases = (
+				F60812A82080805B00A9A030 /* Sources */,
+				F60812A92080805B00A9A030 /* Frameworks */,
+				F60812AA2080805B00A9A030 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.17 rowsl.c 嵌套循环";
+			productName = "6.17 rowsl.c 嵌套循环";
+			productReference = F60812AC2080805B00A9A030 /* 6.17 rowsl.c 嵌套循环 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F60812B62080978600A9A030 /* 6.20 power.c 程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F60812BB2080978600A9A030 /* Build configuration list for PBXNativeTarget "6.20 power.c 程序" */;
+			buildPhases = (
+				F60812B32080978600A9A030 /* Sources */,
+				F60812B42080978600A9A030 /* Frameworks */,
+				F60812B52080978600A9A030 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.20 power.c 程序";
+			productName = "6.20 power.c 程序";
+			productReference = F60812B72080978600A9A030 /* 6.20 power.c 程序 */;
+			productType = "com.apple.product-type.tool";
+		};
 		F63FDF1C207C5C9F00E5AB17 /* 第6章 C控制语句：循环 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F63FDF24207C5C9F00E5AB17 /* Build configuration list for PBXNativeTarget "第6章 C控制语句：循环" */;
@@ -82,6 +474,74 @@
 			productReference = F63FDF1D207C5C9F00E5AB17 /* 第6章 C控制语句：循环 */;
 			productType = "com.apple.product-type.tool";
 		};
+		F63FDF2A207C95A000E5AB17 /* 什么是真 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63FDF2F207C95A000E5AB17 /* Build configuration list for PBXNativeTarget "什么是真" */;
+			buildPhases = (
+				F63FDF27207C95A000E5AB17 /* Sources */,
+				F63FDF28207C95A000E5AB17 /* Frameworks */,
+				F63FDF29207C95A000E5AB17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "什么是真";
+			productName = "什么是真";
+			productReference = F63FDF2B207C95A000E5AB17 /* 什么是真 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F63FDF35207C9FE500E5AB17 /* 6.7 truth.c 程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63FDF3A207C9FE500E5AB17 /* Build configuration list for PBXNativeTarget "6.7 truth.c 程序" */;
+			buildPhases = (
+				F63FDF32207C9FE500E5AB17 /* Sources */,
+				F63FDF33207C9FE500E5AB17 /* Frameworks */,
+				F63FDF34207C9FE500E5AB17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.7 truth.c 程序";
+			productName = "6.7 truth.c 程序";
+			productReference = F63FDF36207C9FE500E5AB17 /* 6.7 truth.c 程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F63FDF40207CA3C300E5AB17 /* 6.8 trouble.c 程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63FDF45207CA3C300E5AB17 /* Build configuration list for PBXNativeTarget "6.8 trouble.c 程序" */;
+			buildPhases = (
+				F63FDF3D207CA3C300E5AB17 /* Sources */,
+				F63FDF3E207CA3C300E5AB17 /* Frameworks */,
+				F63FDF3F207CA3C300E5AB17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.8 trouble.c 程序";
+			productName = "6.8 trouble.c 程序";
+			productReference = F63FDF41207CA3C300E5AB17 /* 6.8 trouble.c 程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		F63FDF4B207CB43F00E5AB17 /* 6.10 sweetiel.c 程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F63FDF50207CB43F00E5AB17 /* Build configuration list for PBXNativeTarget "6.10 sweetiel.c 程序" */;
+			buildPhases = (
+				F63FDF48207CB43F00E5AB17 /* Sources */,
+				F63FDF49207CB43F00E5AB17 /* Frameworks */,
+				F63FDF4A207CB43F00E5AB17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.10 sweetiel.c 程序";
+			productName = "6.10 sweetiel.c 程序";
+			productReference = F63FDF4C207CB43F00E5AB17 /* 6.10 sweetiel.c 程序 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,7 +551,47 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = affee;
 				TargetAttributes = {
+					F608127D207CB73E00A9A030 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6081288207CC3BB00A9A030 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6081293207CC5A500A9A030 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F608129E207CCAA800A9A030 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F60812AB2080805B00A9A030 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F60812B62080978600A9A030 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					F63FDF1C207C5C9F00E5AB17 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F63FDF2A207C95A000E5AB17 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F63FDF35207C9FE500E5AB17 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F63FDF40207CA3C300E5AB17 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F63FDF4B207CB43F00E5AB17 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,11 +610,69 @@
 			projectRoot = "";
 			targets = (
 				F63FDF1C207C5C9F00E5AB17 /* 第6章 C控制语句：循环 */,
+				F63FDF2A207C95A000E5AB17 /* 什么是真 */,
+				F63FDF35207C9FE500E5AB17 /* 6.7 truth.c 程序 */,
+				F63FDF40207CA3C300E5AB17 /* 6.8 trouble.c 程序 */,
+				F63FDF4B207CB43F00E5AB17 /* 6.10 sweetiel.c 程序 */,
+				F608127D207CB73E00A9A030 /* 6.11 sweetie2.c for循环 */,
+				F6081288207CC3BB00A9A030 /* 6.13 逗号运算符 postage.c 程序 */,
+				F6081293207CC5A500A9A030 /* 6.14 zeno.c 求序列的和 程序 */,
+				F608129E207CCAA800A9A030 /* 6.15 do--while */,
+				F60812AB2080805B00A9A030 /* 6.17 rowsl.c 嵌套循环 */,
+				F60812B62080978600A9A030 /* 6.20 power.c 程序 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F608127A207CB73E00A9A030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6081281207CB73E00A9A030 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081285207CC3BB00A9A030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F608128C207CC3BC00A9A030 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6081290207CC5A500A9A030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6081297207CC5A500A9A030 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F608129B207CCAA800A9A030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F669414420A02F07002E1A56 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60812A82080805B00A9A030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60812AF2080805B00A9A030 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60812B32080978600A9A030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F60812BA2080978600A9A030 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F63FDF19207C5C9F00E5AB17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,9 +681,137 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F63FDF27207C95A000E5AB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63FDF2E207C95A000E5AB17 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63FDF32207C9FE500E5AB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63FDF39207C9FE500E5AB17 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63FDF3D207CA3C300E5AB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63FDF44207CA3C300E5AB17 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63FDF48207CB43F00E5AB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63FDF4F207CB43F00E5AB17 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		F6081282207CB73E00A9A030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6081283207CB73E00A9A030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F608128E207CC3BC00A9A030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F608128F207CC3BC00A9A030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6081299207CC5A500A9A030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F608129A207CC5A500A9A030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F60812A4207CCAA800A9A030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F60812A5207CCAA800A9A030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F60812B12080805B00A9A030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F60812B22080805B00A9A030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F60812BC2080978600A9A030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F60812BD2080978600A9A030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F63FDF22207C5C9F00E5AB17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -245,9 +931,127 @@
 			};
 			name = Release;
 		};
+		F63FDF30207C95A000E5AB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F63FDF31207C95A000E5AB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F63FDF3B207C9FE500E5AB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F63FDF3C207C9FE500E5AB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F63FDF46207CA3C300E5AB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F63FDF47207CA3C300E5AB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F63FDF51207CB43F00E5AB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F63FDF52207CB43F00E5AB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F6081284207CB73E00A9A030 /* Build configuration list for PBXNativeTarget "6.11 sweetie2.c for循环" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6081282207CB73E00A9A030 /* Debug */,
+				F6081283207CB73E00A9A030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F608128D207CC3BC00A9A030 /* Build configuration list for PBXNativeTarget "6.13 逗号运算符 postage.c 程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F608128E207CC3BC00A9A030 /* Debug */,
+				F608128F207CC3BC00A9A030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6081298207CC5A500A9A030 /* Build configuration list for PBXNativeTarget "6.14 zeno.c 求序列的和 程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6081299207CC5A500A9A030 /* Debug */,
+				F608129A207CC5A500A9A030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60812A3207CCAA800A9A030 /* Build configuration list for PBXNativeTarget "6.15 do--while" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60812A4207CCAA800A9A030 /* Debug */,
+				F60812A5207CCAA800A9A030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60812B02080805B00A9A030 /* Build configuration list for PBXNativeTarget "6.17 rowsl.c 嵌套循环" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60812B12080805B00A9A030 /* Debug */,
+				F60812B22080805B00A9A030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F60812BB2080978600A9A030 /* Build configuration list for PBXNativeTarget "6.20 power.c 程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F60812BC2080978600A9A030 /* Debug */,
+				F60812BD2080978600A9A030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F63FDF18207C5C9F00E5AB17 /* Build configuration list for PBXProject "第6章 C控制语句：循环" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -262,6 +1066,42 @@
 			buildConfigurations = (
 				F63FDF25207C5C9F00E5AB17 /* Debug */,
 				F63FDF26207C5C9F00E5AB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63FDF2F207C95A000E5AB17 /* Build configuration list for PBXNativeTarget "什么是真" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63FDF30207C95A000E5AB17 /* Debug */,
+				F63FDF31207C95A000E5AB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63FDF3A207C9FE500E5AB17 /* Build configuration list for PBXNativeTarget "6.7 truth.c 程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63FDF3B207C9FE500E5AB17 /* Debug */,
+				F63FDF3C207C9FE500E5AB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63FDF45207CA3C300E5AB17 /* Build configuration list for PBXNativeTarget "6.8 trouble.c 程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63FDF46207CA3C300E5AB17 /* Debug */,
+				F63FDF47207CA3C300E5AB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F63FDF50207CB43F00E5AB17 /* Build configuration list for PBXNativeTarget "6.10 sweetiel.c 程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63FDF51207CB43F00E5AB17 /* Debug */,
+				F63FDF52207CB43F00E5AB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
